@@ -16,13 +16,13 @@ public class Paczkomat {
     String ulica;
     String kod;
     String miasto;
-    String wspX;
-    String wspY;
+    double wspX;
+    double wspY;
 
     public Paczkomat() {
     }
 
-    public Paczkomat(String gdzie, String nrPaczkomatu, String ulica, String kod, String miasto, String wspX, String wspY) {
+    public Paczkomat(String gdzie, String nrPaczkomatu, String ulica, String kod, String miasto, double wspX, double wspY) {
         this.gdzie = gdzie;
         this.nrPaczkomatu = nrPaczkomatu;
         this.ulica = ulica;
@@ -80,19 +80,19 @@ public class Paczkomat {
         this.miasto = miasto;
     }
 
-    public String getWspX() {
+    public double getWspX() {
         return wspX;
     }
 
-    public void setWspX(String wspX) {
+    public void setWspX(double wspX) {
         this.wspX = wspX;
     }
 
-    public String getWspY() {
+    public double getWspY() {
         return wspY;
     }
 
-    public void setWspY(String wspY) {
+    public void setWspY(double wspY) {
         this.wspY = wspY;
     }
 
